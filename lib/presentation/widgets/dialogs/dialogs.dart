@@ -1,0 +1,1 @@
+export 'getx.dialog.dart';

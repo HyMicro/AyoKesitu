@@ -1,0 +1,1 @@
+export 'restapi.model.dart';

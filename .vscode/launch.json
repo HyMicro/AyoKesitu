@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "develop layanan kependudukan",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_develop.dart",
+      "args": ["--flavor", "develop"]
+    },
+    // {
+    //   "name": "staging layanan kependudukan",
+    //   "request": "launch",
+    //   "type": "dart",
+    //   "program": "lib/main_staging.dart",
+    //   "args": ["--flavor", "staging"]
+    // },
+    // {
+    //   "name": "product layanan kependudukan",
+    //   "request": "launch",
+    //   "type": "dart",
+    //   "program": "lib/main_product.dart",
+    //   "args": ["--flavor", "product"]
+    // }
+  ]
+}
