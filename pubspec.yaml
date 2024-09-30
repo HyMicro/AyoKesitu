@@ -4,7 +4,7 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.2.1 <4.0.0"
+  sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
   flutter:
@@ -17,6 +17,8 @@ dependencies:
   url_launcher: 6.2.6
   flutter_screenutil: 5.9.1
   flutter_downloader: 1.11.7
+  image_picker: ^0.8.5+3  # Tambahkan dari config kedua
+  provider: ^6.0.0        # Tambahkan dari config kedua
 
   # style
   google_fonts: 6.2.1
@@ -32,7 +34,6 @@ dependencies:
 
   # widget
   flutter_staggered_grid_view: 0.7.0
-  # flutter_local_notifications: 17.1.1
   file_picker: 8.0.3
   percent_indicator: 4.2.3
   cached_network_image: 3.3.1
@@ -55,10 +56,9 @@ flutter:
     - assets/svg/
     - assets/images/
     - assets/videos/
-
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+    - assets/img/Ratenggaro-village-in-Sumba-Explore-Sumba-island-villages-in-Indonesia-10.jpg
+    - assets/img/bali.png
+    - assets/img/lombok.jpg
+    - assets/img/91.png
+    - assets/img/gili-islands-digital-nomads.png
+    - assets/img/Lombok-to-Komodo-Island-4-Days-3-Night-Amazing-Trip.png
